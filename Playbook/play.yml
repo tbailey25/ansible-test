@@ -1,7 +1,7 @@
 ---
 
 - name: Test Playbook
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Test Task
       debug:
